@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+}
+/*
+Para acceder a una clase se usa un punto
+*/
+.form-input {
+    border-radius: 12px;
+    border: 0.5px solid #ccc;
+
+}
+/*
+Los id's se usan para casos especificos donde no 
+queremos reutilizar estilos
+/* id => #id */
+#boton-enviar {
+    background-color: #8E44AD;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;    
+}
+
+/*Cuando colocmaos el mouse sobre un elemento este 
+tiene la propiedad hover
+*/
+#boton-enviar:hover {
+    background-color: #f01;
+    border: 0.5px solid #000;
+}
+
